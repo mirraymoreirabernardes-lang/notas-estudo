@@ -12,3 +12,4 @@ atalho para abrir pasta no cvcode = ctrl + k = o
  quando tiver q fazer uma conta tirar as aspas e o javascriot executara a equacao 
  na programaçoa string é texto string= texto
  juntar texto = contatenar 
+n posso nomear udas variaveis com mesmo nome 
