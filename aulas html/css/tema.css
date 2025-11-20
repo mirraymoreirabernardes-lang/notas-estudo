@@ -1,13 +1,18 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
+    background-image:url("../ing/folha\ 2.0.jpg");
+    opacity: 0.7;
 }
 #menu {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     list-style-type:none;
     height: 40spx;
+    
 }
 
 #menu li {
@@ -17,11 +22,42 @@ body{
 }
 #menu li a {
     text-decoration:none; 
-    color:rgb(0, 0, 0)
+    color:rgb(248, 6, 6)
 }
 
 #menu li a:hover {
     color: blanchedalmond;
    
   
+}
+
+.linha-titulo{
+    color: black;
+    background-color: bisque;}
+
+.linha-corpo{background-color: rgb(121, 130, 138);}
+
+.linha-corpo:hover{background-color: blueviolet;}
+
+table
+tr,
+td,th{
+    border: solid  2px ;
+    border-radius: 5px;
+    border-color: #f2f;
+
+}
+
+.folha{
+    background-image:url("../ing/folha\ 2.0.jpg");
+    height: 60px;
+    width: 60px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.folhas{
+
+    display: flex;
+    justify-content: space-around;
 }
