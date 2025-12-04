@@ -1,0 +1,30 @@
+body {
+    background: #d0eaff;
+    font-family: Verdana;
+    margin: 0;
+}
+
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista ul {
+    list-style: none;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.lista li {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+.lista li:hover {
+    transform: scale(1.05)}
